@@ -12,19 +12,22 @@ window.count = 0;
 function setZeroClass(param) {
   counter.classList.remove("count-positive");
   counter.classList.remove("count-negative");
-  return counter.classList.add("count-zero");
+  counter.classList.add("count-zero");
+  
 }
 
 function setPositiveClass(param) {
   counter.classList.add("count-positive");
   counter.classList.remove("count-negative");
-  return counter.classList.remove("count-zero");
+  counter.classList.remove("count-zero");
+  
 }
 
 function setNegativeClass(param) {
   counter.classList.remove("count-positive");
   counter.classList.add("count-negative");
-  return counter.classList.remove("count-zero");
+  counter.classList.remove("count-zero");
+  
 }
 
 function setAppropriateClass(param) {

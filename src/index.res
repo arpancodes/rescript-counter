@@ -7,21 +7,21 @@ let counter = document["querySelector"]("#count")
 window["count"] = 0
 
 let setZeroClass = () => {
-  counter["classList"]["remove"]("count-positive")
-  counter["classList"]["remove"]("count-negative")
-  counter["classList"]["add"]("count-zero")
+  counter["classList"]["remove"]("count-positive")->ignore
+  counter["classList"]["remove"]("count-negative")->ignore
+  counter["classList"]["add"]("count-zero")->ignore
 }
 
 let setPositiveClass = () => {
-  counter["classList"]["add"]("count-positive")
-  counter["classList"]["remove"]("count-negative")
-  counter["classList"]["remove"]("count-zero")
+  counter["classList"]["add"]("count-positive")->ignore
+  counter["classList"]["remove"]("count-negative")->ignore
+  counter["classList"]["remove"]("count-zero")->ignore
 }
 
 let setNegativeClass = () => {
-  counter["classList"]["remove"]("count-positive")
-  counter["classList"]["add"]("count-negative")
-  counter["classList"]["remove"]("count-zero")
+  counter["classList"]["remove"]("count-positive")->ignore
+  counter["classList"]["add"]("count-negative")->ignore
+  counter["classList"]["remove"]("count-zero")->ignore
 }
 
 let setAppropriateClass = () => {
